@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Correcthai.com</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Single Page Website</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+
+    .header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .header h1 {
+      text-align: center;
+    }
+
+    .main {
+      padding: 20px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      margin-top: 0;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Correcthai.com</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
+    <h1>My Single Page Website</h1>
   </header>
+
   <main>
-    <section id="home">
-      <h2>Welcome to my Correcthai.com!</h2>
-      <p>This is a brief description of my website.</p>
+    <section>
+      <h2>About</h2>
+      <p>This is my single page website. It is built with React and HTML.</p>
     </section>
-    <section id="about">
-      <h2>About me</h2>
-      <p>This is a brief description of me.</p>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>React-like theme</li>
+        <li>Single page design</li>
+        <li>Responsive layout</li>
+      </ul>
     </section>
-    <section id="contact">
-      <h2>Contact me</h2>
-      <p>This is my contact information.</p>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email me at <a href="mailto:example@email.com">example@email.com</a>.</p>
     </section>
   </main>
-  <footer>
-    <p>&copy; 2023 My Website</p>
-  </footer>
 </body>
 </html>
