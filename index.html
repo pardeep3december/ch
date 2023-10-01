@@ -9,6 +9,8 @@
     body {
       font-family: sans-serif;
       margin: 0;
+      color: #fff;
+      background-color: #000;
     }
 
     .header {
@@ -32,6 +34,16 @@
     .section h2 {
       margin-top: 0;
     }
+
+    .social-media {
+      text-align: center;
+    }
+
+    .social-media a {
+      color: #fff;
+      font-size: 20px;
+      margin: 0 10px;
+    }
   </style>
 </head>
 <body>
@@ -48,15 +60,19 @@
     <section>
       <h2>Features</h2>
       <ul>
-        <li>React-like theme</li>
+        <li>Black and white theme</li>
         <li>Single page design</li>
         <li>Responsive layout</li>
       </ul>
     </section>
 
     <section>
-      <h2>Contact</h2>
-      <p>Email me at <a href="mailto:example@email.com">example@email.com</a>.</p>
+      <h2>Social Media</h2>
+      <div class="social-media">
+        <a href="https://www.facebook.com/example"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://www.twitter.com/example"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/example"><i class="fa fa-instagram"></i></a>
+      </div>
     </section>
   </main>
 </body>
